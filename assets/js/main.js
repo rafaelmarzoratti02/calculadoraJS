@@ -7,6 +7,10 @@ function criaCalculadora() {
       this.display.value = ""
     },
 
+    apagaUm() {
+      this.display.value = this.display.value.slice(0, -1)
+    },
+
     inicia() {
       this.clickButtons()
     },
@@ -21,6 +25,10 @@ function criaCalculadora() {
 
         if (el.classList.contains("btn-clear")) {
           this.clearDisplay()
+        }
+
+        if (el.classList.contains("btn-del")) {
+          this.apagaUm()
         }
       })
     },
