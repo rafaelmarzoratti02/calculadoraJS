@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(169, 169, 179);
+  background-color: rgb(206, 143, 60);
 }
 
 section {
@@ -17,20 +17,16 @@ section {
 }
 
 h1 {
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 0px;
-}
-
-p {
-  margin-top: 5px;
-  font-size: 60px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-align: center;
 }
 
 .calculadora {
-  width: 400px;
+  width: 100%;
+  align-items: center;
 }
 
 .display {
@@ -54,4 +50,16 @@ p {
 
 .btn-eq {
   background: rgb(223, 146, 4);
+}
+
+.btn-eq:hover {
+  background: rgb(184, 122, 8);
+}
+
+.btn-func {
+  background: rgb(194, 190, 190);
+}
+
+.btn-func:hover {
+  background: rgb(112, 109, 109);
 }
